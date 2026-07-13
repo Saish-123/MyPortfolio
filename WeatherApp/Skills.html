@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+
+    <link rel="stylesheet" href="Skills.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="search-box">
+            <input type="text" id="city" placeholder="Enter City Name" spellcheck="false">
+            <button id="search">🔍</button>
+        </div>
+        <div class="weather">
+            <img src="images/sun.png" id="icon">
+            <h1 id="temp">--°C</h1>
+            <h2 id="cityName">City Name</h2>
+            <p id="weather">Weather</p>
+            <div class="details">
+
+                <div class="card">
+                    <h3>Humidity</h3>
+                    <p id="humidity">--%</p>
+                </div>
+
+                <div class="card">
+                    <h3>Wind</h3>
+                    <p id="wind">-- km/h</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="Skills.js"></script>
+</body>
+
+</html>

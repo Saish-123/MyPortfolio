@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Music Player</title>
+<link rel="stylesheet" href="style3.css">
+</head>
+<body>
+ 
+  <div class="player">
+    <img id="cover" src="images/cover1.jpg" alt="cover">
+    <h2 id="songName">Believer</h2>
+ 
+    <input type="range" id="progressBar" min="0" max="100" value="0">
+ 
+    <div class="controls">
+      <button id="prev">⏮</button>
+      <button id="playPause">▶</button>
+      <button id="next">⏭</button>
+    </div>
+ 
+    <ul class="songlist">
+      <li data-index="0"><img src="images/cover1.jpg">Believer</li>
+      <li data-index="1"><img src="images/cover2.jpg">Love Me Not</li>
+      <li data-index="2"><img src="images/cover3.jpg">ACIDO III</li>
+      <li data-index="3"><img src="images/cover4.jpg">Judas</li>
+      <li data-index="4"><img src="images/cover5.jpg">Fight Back</li>
+    </ul>
+  </div>
+ 
+<script src="script.js"></script>
+</body>
+</html>
