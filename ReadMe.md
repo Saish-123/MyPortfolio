@@ -105,7 +105,7 @@ MyPortfolio/
 Clone the repository
 
 ```bash
-git clone https://github.com/yourusername/MyPortfolio.git
+git clone https://github.com/Saish-123/MyPortfolio.git
 ```
 
 Open the project
@@ -143,13 +143,13 @@ I enjoy building interfaces that combine simplicity, motion, and usability to cr
 > Coming Soon
 
 **GitHub**
-> https://github.com/yourusername
+> https://github.com/Saish-123
 
 **LinkedIn**
-> Add your LinkedIn profile
+> 🔗 linkedin.com/in/saish-panhalkar-1456653a2
 
 **Email**
-> your@email.com
+> panhalkarsaish@gmail.com
 
 ---
 
